@@ -110,6 +110,8 @@ class SessionPaths
             );
 
             yield renameAsync("$path.temp.php", $path);
+        } catch (\Exception $exc) {
+            Logger::error($exc->getMessage());
         } finally {
             $unlock();
         }
