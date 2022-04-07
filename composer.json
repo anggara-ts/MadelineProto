@@ -56,7 +56,7 @@
         "amphp/websocket-client": "^1.0",
         "psr/http-factory": "^1.0",
         "psr/log": "^1",
-        "vajexal/amp-sqlite": "^0.1.0",
+        "vajexal/amp-sqlite": "dev-master#085eb016e5ad629a2470a110b780717439fed382",
         "amphp/sync": "^1.4"
     },
     "require-dev": {
